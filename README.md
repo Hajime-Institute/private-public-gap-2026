@@ -31,7 +31,6 @@ that openness as part of the contribution.
 ```
 private-public-gap-2026/
 ├── README.md                       ← you are here
-├── prompts.txt                     ← all prompts in one file (original format)
 └── prompts/
     ├── 01_private_belief.md        ← AGENT_INTERNAL_UPDATE
     ├── 02_public_statement.md      ← AGENT_SAFETY_FILTER_MAIN  (core mechanism)
@@ -43,9 +42,6 @@ private-public-gap-2026/
 Each `prompts/*.md` file gives the prompt verbatim, the input variables
 it expects, and a short explanation of where it sits in the simulation
 pipeline.
-
-`prompts.txt` is the unsplit original; the per-file versions in
-`prompts/` are equivalent and exist only for readability.
 
 ---
 
